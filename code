@@ -1,0 +1,76 @@
+#include <Servo.h>
+
+Servo servo1, servo2, servo3, servo4, servo5, servo6;
+
+int pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0, pos5 = 0, pos6 = 0;
+
+void setup() {
+  servo1.attach(8);
+  servo2.attach(9);
+  servo3.attach(10);
+  servo4.attach(11);
+  servo5.attach(12);
+  servo6.attach(13);
+}
+
+void loop() {
+  // Servo 1
+  for (pos1 = 0; pos1 <= 180; pos1 += 1) {
+    servo1.write(pos1);
+    delay(15);
+  }
+  for (pos1 = 180; pos1 >= 0; pos1 -= 1) {
+    servo1.write(pos1);
+    delay(15);
+  }
+
+  // Servo 2
+  for (pos2 = 0; pos2 <= 180; pos2 += 1) {
+    servo2.write(pos2);
+    delay(15);
+  }
+  for (pos2 = 180; pos2 >= 0; pos2 -= 1) {
+    servo2.write(pos2);
+    delay(15);
+  }
+
+  // Servo 3
+  for (pos3 = 0; pos3 <= 180; pos3 += 1) {
+    servo3.write(pos3);
+    delay(15);
+  }
+  for (pos3 = 180; pos3 >= 0; pos3 -= 1) {
+    servo3.write(pos3);
+    delay(15);
+  }
+
+  // Servo 4
+  for (pos4 = 0; pos4 <= 180; pos4 += 1) {
+    servo4.write(pos4);
+    delay(15);
+  }
+  for (pos4 = 180; pos4 >= 0; pos4 -= 1) {
+    servo4.write(pos4);
+    delay(15);
+  }
+
+  // Servo 5
+  for (pos5 = 0; pos5 <= 180; pos5 += 1) {
+    servo5.write(pos5);
+    delay(15);
+  }
+  for (pos5 = 180; pos5 >= 0; pos5 -= 1) {
+    servo5.write(pos5);
+    delay(15);
+  }
+
+  // Servo 6
+  for (pos6 = 0; pos6 <= 180; pos6 += 1) {
+    servo6.write(pos6);
+    delay(15);
+  }
+  for (pos6 = 180; pos6 >= 0; pos6 -= 1) {
+    servo6.write(pos6);
+    delay(15);
+  }
+}
