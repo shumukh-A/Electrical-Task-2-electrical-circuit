@@ -1,4 +1,6 @@
-# Electrical-Task-2-electrical-circuit
+ # Electrical-Task-2-electrical-circuit
+ # introduction 
+ 
 <br>In this project, an electrical circuit was implemented for 6 servo motors that were connected to an Arduino Uno
 
 # components :
@@ -9,7 +11,8 @@
 5- Wireless
 
 # Connecting servo motors:
-1- Signal port in one of the digital ports. 
+servo1:
+1- Signal pin one of the digital ports. 
 2- VCC port, external power supply 
 3- Gnd port is shared with the ground of the external power supply and the Arduino
 
