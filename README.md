@@ -25,5 +25,7 @@ servo6:
 -Write the code starting by calling the library and defining the motors and their connection ports, then writing the movement code with the appropriate files. Since the movement of the feet is repetitive steps, functions can be written to implement the foot movement continuously and operate with a single command.
 
 # simulation Tinkercad 
+https://www.tinkercad.com/things/joNV2Us6FDm-terrific-tumelo/editel?sharecode=ncMX8hcm0z14P1wR49JYDqqkpUTE_aTUE37sMoqlFdw
 
+# s
 
