@@ -1,7 +1,12 @@
  # Electrical-Task-2-electrical-circuit
  # introduction 
  
-<br>In this project, an electrical circuit was implemented for 6 servo motors that were connected to an Arduino Uno
+In this project, an electrical circuit was implemented for 6 servo motors that were connected to an Arduino Uno
+
+# platform:
+### Tinkercad
+Writing code in Tinkercad for simulation and experimentation before actual implementation 
+Write the code starting by calling the library and defining the motors and their connection ports, then writing the movement code with the appropriate files. Since the movement of the feet is repetitive steps, functions can be written to implement the foot movement continuously and operate with a single command.
 
 # components :
 <br>1-Arduino Uno
@@ -12,37 +17,36 @@
 
 # Connecting servo motors:
 <br>servo1:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 10.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
 <br>servo2:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 12.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
 <br>servo3:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 13.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
 <br>servo4:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 11.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
 <br>servo5:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 9.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
 <br>servo6:
-<br>1- Signal pin one of the digital ports. 
-<br>2- VCC port, external power supply 
-<br>3- Gnd port is shared with the ground of the external power supply and the Arduino
+<br>1- Signal pin at digital pin 8.
+<br>2- VCC pin, external power supply 
+<br>3- Gnd pin is shared with the ground of the external power supply and the Arduino
 <br>
--Writing code in Tinkercad for simulation and experimentation before actual implementation 
--Write the code starting by calling the library and defining the motors and their connection ports, then writing the movement code with the appropriate files. Since the movement of the feet is repetitive steps, functions can be written to implement the foot movement continuously and operate with a single command.
+
 
 # simulation Tinkercad 
 https://www.tinkercad.com/things/joNV2Us6FDm-terrific-tumelo/editel?sharecode=ncMX8hcm0z14P1wR49JYDqqkpUTE_aTUE37sMoqlFdw
